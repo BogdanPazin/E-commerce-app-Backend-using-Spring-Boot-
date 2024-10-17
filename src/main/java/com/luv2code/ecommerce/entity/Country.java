@@ -25,6 +25,6 @@ public class Country {
     private String name;
 
     @OneToMany(mappedBy = "country")
-    @JsonIgnore // OVOM ANOTACIJOM CE IGNORISATI STATES KADA VRACA JSON STRING NA PUTANJI api/countries (S TIM STO JE MENI I PRE TOGA IGNORISALO)
+    @JsonIgnore 
     List<State> states = new ArrayList<>();
 }
