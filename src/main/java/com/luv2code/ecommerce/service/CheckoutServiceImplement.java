@@ -50,7 +50,6 @@ public class CheckoutServiceImplement implements CheckoutService{
     }
 
     private String generateOrderTrackingNumber() {
-//        PRAVIM UNIKATAN ID TAKO DA JE TESKO DA SE POGODI I DA BUDE RANDOM
 
         return UUID.randomUUID().toString();
     }
