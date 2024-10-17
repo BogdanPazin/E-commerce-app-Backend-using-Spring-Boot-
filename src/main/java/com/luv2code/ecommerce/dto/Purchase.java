@@ -11,7 +11,6 @@ import java.util.Set;
 @Getter
 @Setter
 
-//OVA KLASA SLUZI ZA SLANJE PODATAKA IZMEDJU ANGULAR FRONT-ENDA I SPRING BOOT BACK-ENDA
 public class Purchase {
     private Customer customer;
 
