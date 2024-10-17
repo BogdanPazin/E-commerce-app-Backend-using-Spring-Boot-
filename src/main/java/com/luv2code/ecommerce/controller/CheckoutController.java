@@ -18,7 +18,6 @@ public class CheckoutController {
     }
 
     @PostMapping("/purchase")
-//    JSON TRAZI BODY
     public PurchaseResponse placeOrder(@RequestBody Purchase purchase){
         PurchaseResponse purchaseResponse = checkoutService.placeOrder(purchase);
 
