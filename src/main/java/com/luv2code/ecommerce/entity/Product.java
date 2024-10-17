@@ -41,11 +41,11 @@ public class Product {
     private int unitsInStock;
 
     @Column(name = "date_created")
-    @CreationTimestamp // HIBERNATE AUTOMATSKI REGULISE OVAJ ATRIBUT
+    @CreationTimestamp
     private Date dateCreated;
 
     @Column(name = "last_updated")
-    @UpdateTimestamp // HIBERNATE AUTOMATSKI REGULISE OVAJ ATRIBUT
+    @UpdateTimestamp
     private Date lastUpdated;
 
     @ManyToOne
