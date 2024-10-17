@@ -27,6 +27,6 @@ public class Address {
     private String zipCode;
 
     @OneToOne
-    @PrimaryKeyJoinColumn // OSTVARUJE VEZU TAKO STO GLEDA ID ORDER I ID ADRESE
+    @PrimaryKeyJoinColumn
     private Order order;
 }
