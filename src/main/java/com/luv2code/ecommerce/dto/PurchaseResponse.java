@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-// OVA KLASA SLUZI ZA SLANJE JAVA OBJEKTA KAO JSON OBJEKAT
 @Getter
 @Setter
 @AllArgsConstructor
